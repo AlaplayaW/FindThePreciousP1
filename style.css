@@ -1,0 +1,70 @@
+* {
+    border: 1px dotted blueviolet;
+}
+
+.row {
+    margin: 0;
+}
+html {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.textcarousel {
+    font-size: 2rem;
+}
+
+.roundedImage{
+    border-radius:100%;
+}
+.card {
+
+    position: relative;
+    text-align: center;
+}
+.titleRewards div p {
+    max-height: 150px;
+    overflow: auto;
+}
+.card img {
+    opacity: 0.7;
+    z-index: 1;
+    width: 100%;
+}
+section {
+    border-top: 1px solid rgb(58, 58, 58);
+}
+.reward {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    font-size: 1em;
+    margin: 0;
+    padding: 6px 2px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.hunters img {
+    max-width: 70px;
+}
+.titleRewards img {
+    max-width: 140px;
+}
+.jointhearmy img {
+    max-width: 140px;
+}
+#thecards b {
+    color: orangered;
+    font-weight: 400;
+}
+
+/*Au passage de la souris*/
+
+.card:hover img {
+    opacity: 1;
+}
+
+.reward:hover p {
+    display: none;
+}
