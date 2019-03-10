@@ -26,6 +26,11 @@
     src: url(/fonts/text/partybusiness.ttf);
 }
 
+@font-face {
+    font-family: 'tngan';
+    src: url(/symbols/tngan.ttf);
+}
+
 .no-gutters {
     margin: 0;
 }
