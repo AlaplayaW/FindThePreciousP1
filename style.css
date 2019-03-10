@@ -1,37 +1,96 @@
-/* {
+* {
     border: 1px dotted blueviolet;
-}*/
+}
+@font-face {
+    font-family: 'anironc bold';
+    src: url(/fonts/title/anicb___.ttf);
+}
 
-.row {
+@font-face {
+    font-family: 'anironc medium';
+    src: url(/fonts/title/anicm___.ttf);
+}
+
+@font-face {
+    font-family: 'aniron_bold';
+    src: url(/fonts/title/anirb___.ttf);
+}
+
+@font-face {
+    font-family: 'aniron medium';
+    src: url(/fonts/title/anirm___.ttf);
+}
+
+@font-face {
+    font-family: 'partybusiness';
+    src: url(/fonts/text/partybusiness.ttf);
+}
+
+.no-gutters {
     margin: 0;
 }
-html {
-    font-family: Helvetica, Arial, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+.navbar {
+    font-family: 'aniron_bold', sans-serif;
 }
-.textcarousel {
-    font-size: 2rem;
+body {
+    font-family: 'partybusiness', sans-serif;
+}
+.navbar {
+    background-color: rgb(226, 97, 23)
+}
+.navbar .active {
+    border-bottom: 3px solid white;
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+}
+.carousel-caption p{
+    font-size: 4vw;
+    text-align: left;
+}
+.carousel-caption h2{
+    font-size: 3.5vw;
+    text-align: left;
+}
+h3 {
+    font-size: 3vw;
+}
+h3 span {
+    font-size: 1.5vw;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.roundedImage {
+    border-radius: 100%;
 }
 
-.roundedImage{
-    border-radius:100%;
-}
 .card {
 
     position: relative;
     text-align: center;
 }
+
 .titleRewards div p {
     max-height: 150px;
     overflow: auto;
 }
+
 .card img {
     opacity: 0.7;
     z-index: 1;
     width: 100%;
 }
+
 section {
     border-top: 1px solid rgb(58, 58, 58);
 }
+
 .reward {
     position: absolute;
     top: 20%;
@@ -45,15 +104,19 @@ section {
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.7);
 }
+
 .hunters img {
     max-width: 70px;
 }
+
 .titleRewards img {
     max-width: 140px;
 }
+
 .jointhearmy img {
     max-width: 140px;
 }
+
 #thecards b {
     color: orangered;
     font-weight: 400;
